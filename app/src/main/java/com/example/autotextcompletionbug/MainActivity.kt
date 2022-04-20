@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         autoCompleteTextView.setAdapter(filterAdapter)
         autoCompleteTextView.allowCollapse(false)
 //        autoCompleteTextView.performCollapse(false)
-        //as soon as isLineSingle is set to true tokenListener no longer works
+        //as soon as isLineSingle is set to false tokenListener no longer works
         autoCompleteTextView.isSingleLine = false
     }
 
